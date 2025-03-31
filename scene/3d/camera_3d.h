@@ -69,7 +69,10 @@ private:
 	Vector2 frustum_offset;
 	// _ prefix to avoid conflict with Windows defines.
 	real_t _near = 0.05;
-	real_t _far = 4000.0;
+
+	// Default far 4000
+	real_t _far = 100000000000000.0;
+
 	real_t v_offset = 0.0;
 	real_t h_offset = 0.0;
 	KeepAspect keep_aspect = KEEP_HEIGHT;
