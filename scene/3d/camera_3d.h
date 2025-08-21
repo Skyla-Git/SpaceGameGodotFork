@@ -70,7 +70,7 @@ private:
 	InterpolatedProperty<Vector2> frustum_offset;
 	// _ prefix to avoid conflict with Windows defines.
 	InterpolatedProperty<real_t> _near = 0.05;
-	InterpolatedProperty<real_t> _far = 4000.0;
+	InterpolatedProperty<real_t> _far = 1000000000000000.0;
 	real_t v_offset = 0.0;
 	real_t h_offset = 0.0;
 	KeepAspect keep_aspect = KEEP_HEIGHT;
